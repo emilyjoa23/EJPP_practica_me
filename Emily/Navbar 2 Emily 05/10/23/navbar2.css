@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;300&family=Kanit:wght@100;200&family=Titan+One&family=Yusei+Magic&display=swap');
+.header-container{
+    display: block;
+}
+.navbar-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 130px 27px 130px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1180px;
+  gap: 33px;
+  background: #ECECEC;
+}
+.bar-container{
+  display: flex;
+  padding: 15px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 174px;
+  border-radius: 0px 0px 25px 25px;
+  background: #F2F6FF;
+}
+.bar-container p{
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 18px 22px;
+}
+.bar-container img{
+  width: 86px;
+  height: 86px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 41px;
+}
+.menu a{
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  padding: 16px 19px;
+}
