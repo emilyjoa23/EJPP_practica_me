@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    background-color: black;
+}
+.header-container{
+    max-width: 1280;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 17px;
+}
+.menu-ite{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.logo{
+    width: 130px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+}
+.btn_container{
+padding: 15px 20px;
+}
+.btn_1{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background: #880e4f;
+    gap: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.nav-tgg-container img{
+    max-width: 32px;
+}
+.nav-tgg-container{
+    display: none;
+}
+.header-mb-container{
+    background-color: black;
+    position: absolute;
+    top: -500px;
+    transition: .5s;
+    display: block;
+    width: 100%;
+}
+.mb-navbar{
+    display: block;
+}
+
+@media only screen and (max-width: 800px){
+    .nav-tgg-container{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .mb-navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 32px 0 32px 0;
+    }
+    .header-mb-container{
+        top: 0px;
+        display: block;
+        transition: .5s;
+    }
+}
